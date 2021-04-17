@@ -1,5 +1,14 @@
 # java-dotnet-channel-test
 
+## Test case
+1. Java app starts a channel provider "ChannelExample"
+1. Java app registers a 'getValue" action
+1. C# app connects the the channel provider as a channle client
+1. C# app dispatches "'getValue" action and retrieves a result
+1. If Java app stops, C# app gets notified wit onDisconnect callback and re-connects when Java app restarts
+1. If C# app shuts down, Java app gets notified with onChannelDisconnect callback with UUID of C# app
+1. OpenFin App can also connects to the channel provider, dispatches 'getValue" action and get notified with onDisconnect event
+
 ## To test Java channel Provider and donet channel client
 
 1. go to donet directory
@@ -41,7 +50,7 @@ getValue returns:
 INFO: provider receives channel disconnect event from donet channel client test
 ~~~
 
-## Add an OpenFin app in the mix
+## Add an OpenFin app in the test
 1. start an OpenFin app with a version of Runtime that has the fix for RUN-7240
 1. open devtools->console and add the following code
 ~~~
