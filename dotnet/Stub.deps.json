@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v3.1": {
       "Stub/1.0.0": {
         "dependencies": {
-          "Openfin.WPF": "16.7.0",
+          "Openfin.WPF": "16.8.2",
           "OpenfinDesktop": "16.8.2"
         },
         "runtime": {
@@ -32,28 +32,28 @@
           }
         }
       },
-      "Openfin.Winform/16.7.0": {
+      "Openfin.Winform/16.8.2": {
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
           "OpenfinDesktop": "16.8.2"
         },
         "runtime": {
           "lib/netcoreapp3.1/Openfin.WinForm.dll": {
-            "assemblyVersion": "16.7.0.0",
-            "fileVersion": "16.7.0.0"
+            "assemblyVersion": "16.8.2.0",
+            "fileVersion": "16.8.2.0"
           }
         }
       },
-      "Openfin.WPF/16.7.0": {
+      "Openfin.WPF/16.8.2": {
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
-          "Openfin.Winform": "16.7.0",
+          "Openfin.Winform": "16.8.2",
           "OpenfinDesktop": "16.8.2"
         },
         "runtime": {
           "lib/netcoreapp3.1/Openfin.WPF.dll": {
-            "assemblyVersion": "16.7.0.0",
-            "fileVersion": "16.7.0.0"
+            "assemblyVersion": "16.8.2.0",
+            "fileVersion": "16.8.2.0"
           }
         }
       },
@@ -680,24 +680,24 @@
       "path": "newtonsoft.json/12.0.3",
       "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
     },
-    "Openfin.Winform/16.7.0": {
+    "Openfin.Winform/16.8.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-I0b1w+tTknTjcht84k3mW74fC0hq90S/uljHLoRTNq2FdtrFx+mlu5cNIqJVy+OaGGav2Q6wRCUSHG9uBE0Ynw==",
-      "path": "openfin.winform/16.7.0",
-      "hashPath": "openfin.winform.16.7.0.nupkg.sha512"
+      "sha512": "sha512-sR3Qim7EBCcI3g9feYpi5XO7N1Q3JgL3B9jtsJK4RHQbOv4X6Cn/V7rhhWjZDm0Thm9QFK6tg8DxlfX/A5JF1Q==",
+      "path": "openfin.winform/16.8.2",
+      "hashPath": "openfin.winform.16.8.2.nupkg.sha512"
     },
-    "Openfin.WPF/16.7.0": {
+    "Openfin.WPF/16.8.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-CdXGHGgYz4aLVdfMLAx6Ak3V3f/8TrXi3aYnCpPE62AU+grPwubj7gxB9AEgPcwKSGCgwp3uYGj+YhGt/WvC+g==",
-      "path": "openfin.wpf/16.7.0",
-      "hashPath": "openfin.wpf.16.7.0.nupkg.sha512"
+      "sha512": "sha512-3BzUxToU4g+ttFKHZI0swDwoO7irmbLk1fv4T6+Q1MevKpJAwIM1QmLpN2xJTEjfFI55DI18zkxYlNGu5R8XaQ==",
+      "path": "openfin.wpf/16.8.2",
+      "hashPath": "openfin.wpf.16.8.2.nupkg.sha512"
     },
     "OpenfinDesktop/16.8.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Xlvc8jTfqqkhpJkHbi8nBseQaBUquz35i6aocaVKg1SnOKll2h9Dei3fk/yvNO4OwPdEvIrVQCzQG+OcBCKmyg==",
+      "sha512": "sha512-2SC+NFf4vPsl+N1xqhrXHWJFK18TiiDsTiN8LZp4oMMQoSYrpZqxrm0J9g1x0wXUVkVbVyl9ULHJB4ltPtzknA==",
       "path": "openfindesktop/16.8.2",
       "hashPath": "openfindesktop.16.8.2.nupkg.sha512"
     },
